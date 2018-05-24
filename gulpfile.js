@@ -24,9 +24,19 @@ gulp.task('workflow', function () {
       }
     }))
     .pipe(gulp.dest('./dist/css/'))
+    .pipe(gulp.dest('./docs/'))
+})
+
+gulp.task('docs', function () {
+  gulp.src('./node_modules/vue/dist/vue.min.js')
+    .pipe(gulp.dest('./docs'))
+  gulp.src('./node_modules/vuetify/dist/vuetify.min.js')
+    .pipe(gulp.dest('./docs'))
+  gulp.src('./node_modules/vuetify/dist/vuetify.min.css')
+    .pipe(gulp.dest('./docs'))
 })
 
 // Watch task
 gulp.task('default', function () {
-  gulp.watch('./src/scss/**/*.scss', ['workflow'])
+  gulp.watch('./src/scss/**/*.scss', ['workflow', 'docs'])
 })
