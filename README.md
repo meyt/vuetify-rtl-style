@@ -34,4 +34,4 @@ module.exports = {
 ## Additional modifiers
 
 - `.ltr, .ltr input`: Force LTR
-- `.mirror-icon`: Filp icon horizontally
+- `.mirror-icon`: Filp `v-icon` horizontally
