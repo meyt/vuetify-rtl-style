@@ -1,0 +1,80 @@
+* {
+  direction: rtl;
+  text-align: right; }
+
+.list__tile__content {
+  text-align: right; }
+
+.list__tile__title {
+  text-align: right; }
+
+.input-group.input-group--selection-controls label {
+  left: initial;
+  right: 32px;
+  text-align: right; }
+
+.input-group.input-group--selection-controls .icon--selection-control {
+  left: initial;
+  right: 0; }
+
+.input-group--text-field label {
+  left: initial;
+  right: 0;
+  text-align: right;
+  -webkit-transform-origin: top right;
+  transform-origin: top right; }
+
+.breadcrumbs__divider {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+.toolbar__content > :not(.btn):not(.menu):first-child:not(:only-child),
+.toolbar__extension > :not(.btn):not(.menu):first-child:not(:only-child) {
+  margin-left: initial;
+  margin-right: 16px; }
+
+.input-group.input-group--selection-controls.switch label {
+  padding-left: initial;
+  padding-right: 14px; }
+
+.input-group--text-field .input-group__counter {
+  margin-left: initial;
+  margin-right: auto; }
+
+.input-group--text-field.input-group--prepend-icon label {
+  left: initial;
+  right: 40px; }
+
+.input-group--text-field.input-group--prepend-icon .input-group__prepend-icon {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.input-group--text-field.input-group--prepend-icon .input-group__details {
+  margin-right: auto;
+  margin-left: initial; }
+
+.alert__icon {
+  margin-right: initial;
+  margin-left: 16px; }
+
+table.table thead th,
+.text-xs-left {
+  text-align: right !important; }
+
+.chip .avatar {
+  margin-left: 8px;
+  margin-right: -12px; }
+
+.datatable__actions__range-controls .icon,
+.pagination__navigation .icon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+.ltr, .ltr input {
+  text-align: left;
+  direction: ltr; }
+
+.mirror-icon {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
