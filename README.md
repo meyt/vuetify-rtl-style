@@ -19,7 +19,6 @@ Just add `vuetify-rtl-style/dist/vuetify-rtl-style.min.css` after vuetify styles
 `nuxt-config.js`:
 
 ```javascript
-var FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   ...
