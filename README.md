@@ -25,7 +25,7 @@ module.exports = {
   ...
   css: [
     'vuetify/dist/vuetify.min.css',
-    'vuetify-rtl-style/dist/vuetify-rtl-style.min.css'
+    'vuetify-rtl-style/dist/css/vuetify-rtl-style.min.css'
   ],
   ...
 }
