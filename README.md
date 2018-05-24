@@ -1,6 +1,6 @@
 # vuetify-rtl-style [ALPHA]
 
-Vuetify style overriding for RTL support
+Vuetify style overriding for RTL support [[Demo](https://meyt.github.io/vuetify-rtl-style/)]
 
 
 ## Installation
