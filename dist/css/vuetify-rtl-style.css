@@ -73,7 +73,7 @@ table.table thead th,
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1); }
 
-.ltr, .ltr input {
+.ltr, .ltr-input input {
   text-align: left;
   direction: ltr; }
 

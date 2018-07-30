@@ -1,6 +1,6 @@
 {
   "name": "vuetify-rtl-style",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Vuetify style overriding for RTL support",
   "main": "gulpfile.js",
   "scripts": {
