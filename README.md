@@ -12,7 +12,7 @@ npm install --save vuetify-rtl-style
 
 ## Usage
 
-Just add `vuetify-rtl-style/dist/vuetify-rtl-style.min.css` after vuetify styles. 
+Just add `vuetify-rtl-style/dist/vuetify-rtl-style.min.css` after vuetify styles.
 
 ### with Nuxt.js
 
@@ -33,5 +33,5 @@ module.exports = {
 
 ## Additional modifiers
 
-- `.ltr, .ltr input`: Force LTR
+- `.ltr, .ltr-input`: Force LTR
 - `.mirror-icon`: Filp `v-icon` horizontally
