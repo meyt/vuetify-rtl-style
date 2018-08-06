@@ -80,3 +80,21 @@ table.table thead th,
 .mirror-icon {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1); }
+
+.input-group.input-group--solo label {
+  padding-right: 16px;
+  padding-left: initial; }
+
+.input-group--text-field.input-group--textarea:not(.input-group--full-width) label {
+  left: initial;
+  right: 15px; }
+
+.input-group--text-field.input-group--textarea:not(.input-group--full-width) .input-group__input {
+  padding: 30px 13px 0  0; }
+
+.progress-linear__bar {
+  direction: ltr; }
+
+.toolbar__title {
+  margin-right: 16px;
+  margin-left: initial; }
