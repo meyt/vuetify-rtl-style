@@ -13,7 +13,12 @@ body,
 .list__tile__title{
   text-align: right;
 }
-
+.input-group.input-group--editable label,
+.input-group.input-group--overflow label,
+.input-group.input-group--segmented label {
+  left: initial;
+  right: 16px!important;
+}
 .input-group.input-group--selection-controls label{
   left: initial;
   right: 32px;
